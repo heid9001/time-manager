@@ -1,5 +1,5 @@
 # time-manager
-npm install
-npm run winBuild
+- npm install
+- npm run winBuild
 
-в папке ./out будет .exe для запуска
+- в папке ./out будет .exe для запуска
