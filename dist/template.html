@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Demo</title>
+      <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="form-group">
+                <button id="newSchemaModal" class="btn">Новая группа перерывов</button>
+              </div>
+            </div>
+            <div id="schemaList" class="row"></div>
+            <div id="entryList" class="row"></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div style="width: 24px; height: 22px;">
+          <button type="button" id="closeModal" class="btn btn-xs" style="float:right">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </div>
+        <!-- Modal content -->
+        <div class="modal-content">
+        </div>
+      </div>
+    </body>
+    <script src="main.js"></script>
+  </html>
